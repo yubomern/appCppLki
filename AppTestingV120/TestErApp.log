@@ -1,0 +1,12 @@
+[2026-09-23 11:44:28] [INFO] TestErApp starting
+[2026-09-23 11:44:29] [INFO] Starting SLOT 2G run 1
+[2026-09-23 11:44:29] [INFO] Starting SLOT 5G run 1
+[2026-09-23 11:44:29] [INFO] Starting SLOT 6G run 1
+[2026-09-23 11:44:30] [INFO] SLOT 2G -> FAIL (LOG)
+[2026-09-23 11:44:30] [INFO] SLOT 5G -> FAIL (LOG)
+[2026-09-23 11:44:30] [INFO] SLOT 6G -> FAIL (LOG)
+[2026-09-23 11:44:30] [INFO] Starting SLOT 6G run 2
+[2026-09-23 11:44:32] [INFO] SLOT 6G -> FAIL (LOG)
+[2026-09-23 11:44:32] [INFO] Launching Python application
+[2026-09-23 11:44:32] [INFO] Python application exited with code 2
+[2026-09-23 11:44:44] [INFO] TestErApp shutting down

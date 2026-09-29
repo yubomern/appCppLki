@@ -1,0 +1,1448 @@
+
+C:\Test_WC_Octopus\app_ol>cd..
+
+C:\Test_WC_Octopus>cd..
+
+C:\>cd..
+
+C:\>cd..
+
+C:\>cd..
+
+C:\>cd..
+
+C:\>cd..
+
+C:\>cd..
+
+C:\>cd..
+
+C:\>c:
+
+C:\>cd LitePoint 
+
+C:\LitePoint>cd IQfact_plus 
+
+C:\LitePoint\IQfact_plus>cd IQfact+_BRCM_6718_Telnet_6.0.0.4_Lock 
+
+C:\LitePoint\IQfact_plus\IQfact+_BRCM_6718_Telnet_6.0.0.4_Lock>cd Bin_Octopus_6GHz_WIFI7 
+
+C:\LitePoint\IQfact_plus\IQfact+_BRCM_6718_Telnet_6.0.0.4_Lock\Bin_Octopus_6GHz_WIFI7>IQfactRun_Console.exe -run TestFlow_6718_ChByCh_6Ghz_Octopus_CAL.txt -onfail 0 -exit 
+
+==================================================================================================
+=  Running IQfact+ component : IQfactRun_Console.exe                                               |
+=  Version                   : 3.4.0.1                                                             |
+=  Last updated on           : 2021-05-20                                                          |
+===================================================================================================
+======== Package Name: IQfact+_BRCM_6718_Telnet_6.0.0.4_Lock
+======== Flow File: TestFlow_6718_ChByCh_6Ghz_Octopus_CAL.txt
+======== Log Path: C:\LitePoint\IQfact_plus\IQfact+_BRCM_6718_Telnet_6.0.0.4_Lock\Bin_Octopus_6GHz_WIFI7\Log\
+======== Local: EZR-BBS27341
+================================== Run  1 ======================================
+======== Timestamp: 2026-09-23_11:44:29
+
+Summary
+======== Technology: WIFI
+
+1.GLOBAL_SETTINGS  ___________________________________________________________
+ANTENNA_COUNT                                     :          4         
+ANT1_PORT                                         :       RF4A         
+ANT2_PORT                                         :       RF4A         
+ANT3_PORT                                         :       RF4A         
+ANT4_PORT                                         :       RF4A         
+ALWAYS_AGC                                        :          0         
+ANALYSIS_11AC_MASK_ACCORDING_CBW                  :          0         
+ANALYSIS_11B_DC_REMOVE_FLAG                       :          0         
+ANALYSIS_11B_EQ_TAPS                              :          1         
+ANALYSIS_11B_FIXED_01_DATA_SEQUENCE               :          0         
+ANALYSIS_11B_METHOD_11B                           :          1         
+ANALYSIS_11B_RAMP_CONFIG                          :          1         
+ANALYSIS_AMPLITUDE_TRACKING                       :          0         
+ANALYSIS_DECODE_PSDU                              :          0         
+ANALYSIS_FREQUENCY_CORRELATION                    :          0         
+ANALYSIS_FULL_PACKET_CHANNEL_EST                  :          0         
+ANALYSIS_PHASE_CORR                               :          1         
+ANALYSIS_PREAMBLE_AVERAGING                       :          0         
+ANALYSIS_PREAMBLE_AVERAGING_11AC_ONLY             :          0         
+ANALYSIS_PREAMBLE_AVERAGING_11AX_ONLY             :          0         
+ANALYSIS_PREAMBLE_AVERAGING_11BE_ONLY             :          0         
+ANALYSIS_PREAMBLE_AVERAGING_11N_ONLY              :          0         
+ANALYSIS_SYM_TIMING_CORR                          :          1         
+AUTO_READING_LIMIT                                :          0         
+CAPTURE_TIME_CW_US                                :        100         
+CW_TEST_AVERAGE                                   :          1         
+DUT_KEEP_TRANSMIT                                 :          1         
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+ENABLE_FAST_PER                                   :          0         
+EVM_AVERAGE                                       :          3         
+EVM_CAPTURE_TIME_11AC_VHT_US                      :        180 us      
+EVM_CAPTURE_TIME_11AG_US                          :         95 us      
+EVM_CAPTURE_TIME_11AX_HE_US                       :        400 us      
+EVM_CAPTURE_TIME_11BE_EHT_US                      :        400 us      
+EVM_CAPTURE_TIME_11B_L_US                         :        464 us      
+EVM_CAPTURE_TIME_11B_S_US                         :        232 us      
+EVM_CAPTURE_TIME_11N_GREENFIELD_US                :        115 us      
+EVM_CAPTURE_TIME_11N_MIXED_US                     :        123 us      
+EVM_CAPTURE_TIME_CONTROL_PHY_US                   :         46 us      
+EVM_CAPTURE_TIME_LPSC_PHY_US                      :         12 us      
+EVM_CAPTURE_TIME_OFDM_PHY_US                      :         12 us      
+EVM_CAPTURE_TIME_SC_PHY_US                        :         12 us      
+EVM_PRE_TRIG_TIME_US                              :          3 us      
+EVM_SYMBOL_NUM                                    :         18         
+IQ_P_TO_A_DSSS_CCK                                :          2 dB      
+IQ_P_TO_A_OFDM                                    :         12 dB      
+LOAD_11AX_11BE_SU_WAVEFORM                        :          0         
+LOAD_INTERNAL_WAVEFORM                            :          0         
+LOAD_LEGACY_WAVEFORM                              :          1         
+MASK_AVERAGE                                      :          3         
+MASK_SAMPLE_INTERVAL_US_CONTROL_PHY               :        108 us      
+MASK_SAMPLE_INTERVAL_US_LPSC_PHY                  :         40 us      
+MASK_SAMPLE_INTERVAL_US_OFDM_PHY                  :         40 us      
+MASK_SAMPLE_INTERVAL_US_SC_PHY                    :         40 us      
+MASK_SMP_TM_DSSS_US                               :        286 us      
+MASK_SMP_TM_OFDM_US                               :         95 us      
+PER_FRAME_COUNT                                   :        500         
+PER_VSG_TIMEOUT_SEC                               :         20 sec     
+PM_AVERAGE                                        :          3         
+PM_DSSS_SAMPLE_INTERVAL_US                        :         30 us      
+PM_IF_FREQ_SHIFT_MHZ                              :          0 MHz     
+PM_OFDM_SAMPLE_INTERVAL_US                        :         20 us      
+PM_SAMPLE_INTERVAL_US_CONTROL_PHY                 :         46 us      
+PM_SAMPLE_INTERVAL_US_LPSC_PHY                    :         12 us      
+PM_SAMPLE_INTERVAL_US_OFDM_PHY                    :         12 us      
+PM_SAMPLE_INTERVAL_US_SC_PHY                      :         12 us      
+PM_TRIGGER_DSSS_US                                :        100 us      
+PM_TRIGGER_OFDM_US                                :         20 us      
+RELATIVE_LIMIT                                    :          0         
+RESET_TEST_ITEM_DURING_RETRY                      :          0         
+RETRY_ERROR_ITEMS                                 :          0         
+RETRY_TEST_ITEM                                   :          0         
+SAVE_AUTOGENERATED_WAVEFORM_LOCAL                 :          0         
+SKIP_PACKET_COUNT                                 :          0         
+SPECTRUM_SAMPLE_INTERVAL_US_OFDM_PHY              :         12 us      
+SPECTRUM_SMP_TM_DSSS_US                           :        286 us      
+SPECTRUM_SMP_TM_OFDM_US                           :         95 us      
+VSA_SAVE_CAPTURE_ALWAYS                           :          0         
+VSA_SAVE_CAPTURE_ON_FAILED                        :          1         
+VSA_SAVE_CAPTURE_ON_LIMIT_FAIL                    :          0         
+VSA_TRIGGER_TIMEOUT_SEC                           :         17 secs    
+VSA_TRIGGER_TYPE                                  :          6         
+WAVEGEN_11AX_LAST_AMPDU_EOF_ON                    :          0         
+CW_POWER_FILTER_BW                                :   5.000000 MHz     
+CW_SPEC_FFT_RBW                                   :   1.000000 MHz     
+PACKET_DETECTION_GAP                              :   1.000000 us      
+PACKET_DETECTION_THRESHOLD                        :  10.000000 dB      
+PER_WAVEFORM_PACKET_POST_GAP_HE_TB                :  30.000000 us      
+PER_WAVEFORM_PACKET_POST_GAP_MU                   :  30.000000 us      
+PER_WAVEFORM_PACKET_POST_GAP_SU                   :  30.000000 us      
+PER_WAVEFORM_PACKET_POST_GAP_TFR                  :  10.000000 us      
+PM_PREAMBLE_START_US                              :   4.000000 us      
+PM_PREAMBLE_STOP_US                               :  16.000000 us      
+VSA_AMPLITUDE_TOLERANCE_DB                        :   3.000000 dB      
+VSA_PRE_TRIGGER_TIME_US                           :   3.000000 us      
+VSA_TRIGGER_LEVEL_DB                              : -25.000000 dB      
+VSG_MAX_POWER_11AC                                :  -5.000000         
+VSG_MAX_POWER_11B                                 :   0.000000         
+VSG_MAX_POWER_11G                                 :  -5.000000         
+VSG_MAX_POWER_11N                                 :  -5.000000         
+AIM_GAIN_DB                                       :          0 dB      
+CAT_B                                             :          0         
+CLEAR_CHAN_DATA                                   :          0         
+EVM_11N_HT20_REFERENCE_FILE_NAME_PREFIX           :  WiFi_HT20         
+EVM_11N_HT40_REFERENCE_FILE_NAME_PREFIX           :  WiFi_HT40         
+FESW_ANT1_PORT                                    :                    
+FESW_ANT2_PORT                                    :                    
+FESW_ANT3_PORT                                    :                    
+FESW_ANT4_PORT                                    :                    
+FESW_ANT5_PORT                                    :                    
+FESW_ANT6_PORT                                    :                    
+FESW_ANT7_PORT                                    :                    
+FESW_ANT8_PORT                                    :                    
+FESW_INDEX                                        :          0         
+LOG_PATH                                          :         ./         
+PER_WAVEFORM_DESTINATION_MAC                      : 000000C0FFEE         
+PER_WAVEFORM_PATH                                 :   ../iqvsg         
+PER_WAVEFORM_PREFIX                               :                    
+PER_WAVEFORM_SUFFIX                               :                    
+P_RATED_TRP                                       :         23         
+SPECTRUM_FLATNESS_LIMIT_2G                        :                    
+SPECTRUM_FLATNESS_LIMIT_5G                        :                    
+SPECTRUM_FLATNESS_LIMIT_6G                        :                    
+Test Time = 0.003 s
+ERROR_MESSAGE                                     : [Info] Function completed.
+ 
+
+2.CONNECT_IQ_TESTER  _________________________________________________________
+APP_ID                                            :          7         
+APT_ENABLE                                        :          1         
+DH_ENABLE                                         :          0         
+DH_OBTAIN_CONTROL_TIMEOUT_MS                      :     300000 ms      
+DH_PROBE_TIME_MS                                  :        100 ms      
+DH_TOKEN_ID                                       :          1         
+IQTESTER_RECONNECT                                :          0         
+IQTESTER_TYPE                                     :          1         
+REQUEST_RESOURCE_TIMEOUT_SEC                      :         30 sec     
+TEMP_COMP_THRESHOLD                               :   0.000000 CEL     
+IQTESTER_MODULE_01                                : 192.168.7.254:A         
+IQTESTER_MODULE_02                                :                    
+IQTESTER_MODULE_03                                :                    
+IQTESTER_MODULE_04                                :                    
+IQTESTER_MODULE_05                                :                    
+IQTESTER_MODULE_06                                :                    
+IQTESTER_MODULE_07                                :                    
+IQTESTER_MODULE_08                                :                    
+OPTION_STRING                                     :                    
+Test Time = 0.168 s
+ERROR_MESSAGE                                     : This release package is SN locked!!  The Tester being connected is not valid for this release package.
+ 
+        --- [Failed]  :  test function error
+
+3.INSERT_DUT  ________________________________________________________________
+RELOAD_DUT_DLL                                    :          0         
+CONNECTION_STRING                                 : 192.168.1.1         
+DUT_DLL_FILENAME                                  : BRCM6718_Socket.dll         
+EEPROM_FILENAME                                   :                    
+OPTION_STRING                                     : WLAN_BRCM_General_TELNET_config_6Ghz_Octopus.ini         
+Test Time = 0.001 s
+ERROR_MESSAGE                                     : This release package is SN locked!!  The Tester being connected is not valid for this release package.
+ 
+        --- [Failed]  :  test function error
+
+4.INITIALIZE_DUT  ____________________________________________________________
+Test Time = 0.000 s
+ERROR_MESSAGE                                     : This release package is SN locked!!  The Tester being connected is not valid for this release package.
+ 
+        --- [Failed]  :  test function error
+
+5.LOAD_PATH_LOSS_TABLE  ______________________________________________________
+RX_PATH_LOSS_FILE                                 : path_loss.csv         
+TX_PATH_LOSS_FILE                                 : path_loss.csv         
+Test Time = 0.002 s
+ERROR_MESSAGE                                     : This release package is SN locked!!  The Tester being connected is not valid for this release package.
+ 
+        --- [Failed]  :  test function error
+
+6.TX_CALIBRATION_TEST  _______________________________________________________
+CABLE_LOSS_DB_VSA1                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA2                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA3                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA4                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA5                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA6                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA7                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA8                                :   0.000000 dB      
+DUT_KEEP_TRANSMIT                                 :          1         
+OPTION_STRING                                     : WLAN_2gx4_5gx4_6gx4_Power_Trimming_config_SROM_6Ghz.ini;skip_ref_file         
+SAMPLING_TIME_US                                  : 150.000000 uS      
+TX_CAL_TIMEOUT_MS                                 : 600000.000000 MS      
+Test Time = 0.001 s
+ERROR_MESSAGE                                     : This release package is SN locked!!  The Tester being connected is not valid for this release package.
+ 
+        --- [Failed]  :  test function error
+
+7.TX_CALIBRATION_TEST  _______________________________________________________
+CABLE_LOSS_DB_VSA1                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA2                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA3                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA4                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA5                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA6                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA7                                :   0.000000 dB      
+CABLE_LOSS_DB_VSA8                                :   0.000000 dB      
+DUT_KEEP_TRANSMIT                                 :          1         
+OPTION_STRING                                     : WLAN_2gx4_5gx4_6gx4_Power_Trimming_config_SROM_6Ghz.ini;skip_ref_file         
+SAMPLING_TIME_US                                  : 150.000000 uS      
+TX_CAL_TIMEOUT_MS                                 : 600000.000000 MS      
+Test Time = 0.001 s
+ERROR_MESSAGE                                     : This release package is SN locked!!  The Tester being connected is not valid for this release package.
+ 
+        --- [Failed]  :  test function error
+
+8.RX_CALIBRATION  ____________________________________________________________
+FRAME_COUNT                                       :          0         
+CABLE_LOSS_DB1                                    :          0 dB      
+CABLE_LOSS_DB2                                    :          0 dB      
+CABLE_LOSS_DB3                                    :          0 dB      
+CABLE_LOSS_DB4                                    :          0 dB      
+CABLE_LOSS_DB5                                    :          0 dB      
+CABLE_LOSS_DB6                                    :          0 dB      
+CABLE_LOSS_DB7                                    :          0 dB      
+CABLE_LOSS_DB8                                    :          0 dB      
+RX_CAL_TIMEOUT_MS                                 :     6e+005 ms      
+WAVEFORM_NAME                                     : WiFi_HT20_MCS0.iqvsg         
+Test Time = 0.001 s
+ERROR_MESSAGE                                     : This release package is SN locked!!  The Tester being connected is not valid for this release package.
+ 
+        --- [Failed]  :  test function error
+
+9.TX_VERIFY EVM MASK POWER SPECTRUM 6115 MCS11 HE_SU BW-20 ANT1 ______________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS11         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6115 MHz     
+CH_FREQ_MHZ                                       :       6115 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+10.TX_VERIFY EVM MASK POWER SPECTRUM 6115 MCS11 HE_SU BW-20 ANT2 _____________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS11         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6115 MHz     
+CH_FREQ_MHZ                                       :       6115 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          1         
+ANT3                                              :          0         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+11.TX_VERIFY EVM MASK POWER SPECTRUM 6115 MCS11 HE_SU BW-20 ANT3 _____________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS11         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6115 MHz     
+CH_FREQ_MHZ                                       :       6115 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          1         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+12.TX_VERIFY EVM MASK POWER SPECTRUM 6115 MCS11 HE_SU BW-20 ANT4 _____________
+STANDARD                                          :   802.11ax         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS11         
+PACKET_FORMAT                                     :      HE_SU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6115 MHz     
+CH_FREQ_MHZ                                       :       6115 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          1         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+13.TX_VERIFY EVM MASK POWER SPECTRUM 6225 MCS11 EHT_MU BW-80 ANT1 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS11         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6225 MHz     
+CH_FREQ_MHZ                                       :       6225 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+14.TX_VERIFY EVM MASK POWER SPECTRUM 6225 MCS11 EHT_MU BW-80 ANT2 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS11         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6225 MHz     
+CH_FREQ_MHZ                                       :       6225 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          1         
+ANT3                                              :          0         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+15.TX_VERIFY EVM MASK POWER SPECTRUM 6225 MCS11 EHT_MU BW-80 ANT3 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS11         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6225 MHz     
+CH_FREQ_MHZ                                       :       6225 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          1         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+16.TX_VERIFY EVM MASK POWER SPECTRUM 6225 MCS11 EHT_MU BW-80 ANT4 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :      MCS11         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6225 MHz     
+CH_FREQ_MHZ                                       :       6225 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          1         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+17.TX_VERIFY EVM MASK POWER SPECTRUM 6355 MCS0 EHT_MU BW-20 ANT1 _____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6355 MHz     
+CH_FREQ_MHZ                                       :       6355 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+18.TX_VERIFY EVM MASK POWER SPECTRUM 6355 MCS0 EHT_MU BW-20 ANT2 _____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6355 MHz     
+CH_FREQ_MHZ                                       :       6355 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          1         
+ANT3                                              :          0         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+19.TX_VERIFY EVM MASK POWER SPECTRUM 6355 MCS0 EHT_MU BW-20 ANT3 _____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6355 MHz     
+CH_FREQ_MHZ                                       :       6355 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          1         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.002 s
+
+20.TX_VERIFY EVM MASK POWER SPECTRUM 6355 MCS0 EHT_MU BW-20 ANT4 _____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6355 MHz     
+CH_FREQ_MHZ                                       :       6355 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          1         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+21.TX_VERIFY EVM MASK POWER SPECTRUM 6265 MCS7 EHT_MU BW-320 ANT1 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :       MCS7         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :     BW-320 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6265 MHz     
+CH_FREQ_MHZ                                       :       6265 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+22.TX_VERIFY EVM MASK POWER SPECTRUM 6265 MCS7 EHT_MU BW-320 ANT2 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :       MCS7         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :     BW-320 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6265 MHz     
+CH_FREQ_MHZ                                       :       6265 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          1         
+ANT3                                              :          0         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+23.TX_VERIFY EVM MASK POWER SPECTRUM 6265 MCS7 EHT_MU BW-320 ANT3 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :       MCS7         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :     BW-320 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6265 MHz     
+CH_FREQ_MHZ                                       :       6265 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          1         
+ANT4                                              :          0         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+24.TX_VERIFY EVM MASK POWER SPECTRUM 6265 MCS7 EHT_MU BW-320 ANT4 ____________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_TX_DL_SU         
+MEASUREMENTS                                      :    E,M,P,S         
+DATA_RATE                                         :       MCS7         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :     BW-320 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6265 MHz     
+CH_FREQ_MHZ                                       :       6265 MHz     
+DUT_TX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          1         
+EVM_LIMIT                                         :          0 dB      
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+TX_POWER_DBM                                      :         15 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+EHT_SIG_MCS                                       :          0         
+GI_LTF_TYPE                                       :          1         
+NUM_HE_LTF                                        :          1         
+PSDU_LENGTH                                       :          0         
+RU_SIZE                                           :          1         
+STBC                                              :          0         
+USE_ALL_SIGNAL                                    :          1         
+OBW_PERCENTAGE                                    :         99 %       
+PACKET_EXTENSION                                  :   1.6e-005         
+SAMPLING_TIME_US                                  :          0 us      
+EHT_PUNC_MODE                                     : 0-No puncturing         
+MAC_ADDRESS                                       :                    
+OPTION_STRING                                     :                    
+STA_ID                                            :                    
+Test Time = 0.001 s
+
+25.RX_VERIFY PER 6095 MCS0 EHT_MU BW-20 ANT1 _________________________________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6095 MHz     
+CH_FREQ_MHZ                                       :       6095 MHz     
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          0         
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -40 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+LLDPC                                             :          0         
+UEQM_PATTERN                                      :         -1         
+UHR_SIG_MCS                                       :          0         
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :       1024 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+FBC_MODE                                          :         -1         
+Test Time = 0.001 s
+
+26.RX_VERIFY PER 6095 MCS0 EHT_MU BW-20 ANT2 _________________________________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6095 MHz     
+CH_FREQ_MHZ                                       :       6095 MHz     
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          1         
+ANT3                                              :          0         
+ANT4                                              :          0         
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -40 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+LLDPC                                             :          0         
+UEQM_PATTERN                                      :         -1         
+UHR_SIG_MCS                                       :          0         
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :       1024 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+FBC_MODE                                          :         -1         
+Test Time = 0.001 s
+
+27.RX_VERIFY PER 6095 MCS0 EHT_MU BW-20 ANT3 _________________________________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6095 MHz     
+CH_FREQ_MHZ                                       :       6095 MHz     
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          1         
+ANT4                                              :          0         
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -40 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+LLDPC                                             :          0         
+UEQM_PATTERN                                      :         -1         
+UHR_SIG_MCS                                       :          0         
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :       1024 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+FBC_MODE                                          :         -1         
+Test Time = 0.001 s
+
+28.RX_VERIFY PER 6095 MCS0 EHT_MU BW-20 ANT4 _________________________________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :       MCS0         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-20 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6095 MHz     
+CH_FREQ_MHZ                                       :       6095 MHz     
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          1         
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -40 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+LLDPC                                             :          0         
+UEQM_PATTERN                                      :         -1         
+UHR_SIG_MCS                                       :          0         
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :       1024 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+FBC_MODE                                          :         -1         
+Test Time = 0.001 s
+
+29.RX_VERIFY PER 6145 MCS13 EHT_MU BW-80 ANT1 ________________________________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :      MCS13         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6145 MHz     
+CH_FREQ_MHZ                                       :       6145 MHz     
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          1         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          0         
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -40 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+LLDPC                                             :          0         
+UEQM_PATTERN                                      :         -1         
+UHR_SIG_MCS                                       :          0         
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :       1024 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+FBC_MODE                                          :         -1         
+Test Time = 0.001 s
+
+30.RX_VERIFY PER 6145 MCS13 EHT_MU BW-80 ANT2 ________________________________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :      MCS13         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6145 MHz     
+CH_FREQ_MHZ                                       :       6145 MHz     
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          1         
+ANT3                                              :          0         
+ANT4                                              :          0         
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -40 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+LLDPC                                             :          0         
+UEQM_PATTERN                                      :         -1         
+UHR_SIG_MCS                                       :          0         
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :       1024 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+FBC_MODE                                          :         -1         
+Test Time = 0.001 s
+
+31.RX_VERIFY PER 6145 MCS13 EHT_MU BW-80 ANT3 ________________________________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :      MCS13         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6145 MHz     
+CH_FREQ_MHZ                                       :       6145 MHz     
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          1         
+ANT4                                              :          0         
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -40 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+LLDPC                                             :          0         
+UEQM_PATTERN                                      :         -1         
+UHR_SIG_MCS                                       :          0         
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :       1024 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+FBC_MODE                                          :         -1         
+Test Time = 0.001 s
+
+32.RX_VERIFY PER 6145 MCS13 EHT_MU BW-80 ANT4 ________________________________
+STANDARD                                          :   802.11be         
+TEST_CATEGORY                                     : AP_RX_UL_SU         
+MEASUREMENTS                                      :        PER         
+DATA_RATE                                         :      MCS13         
+PACKET_FORMAT                                     :     EHT_MU         
+BSS_BANDWIDTH                                     :      BW-80 MHz     
+CH_BANDWIDTH                                      :          0 MHz     
+BSS_FREQ_MHZ_PRIMARY                              :       6145 MHz     
+CH_FREQ_MHZ                                       :       6145 MHz     
+DUT_RX_SETTLE_TIME_MS                             :          0 ms      
+NUM_STREAMS                                       :          1         
+ANT1                                              :          0         
+ANT2                                              :          0         
+ANT3                                              :          0         
+ANT4                                              :          1         
+ARRAY_HANDLING_METHOD                             :          4         
+CODING_TYPE                                       :       LDPC         
+MPDU_MAX_LENGTH                                   :      10000         
+RX_POWER_DBM                                      :        -40 dBm     
+CABLE_LOSS_DB1                                    :   0.000000 dB      
+CABLE_LOSS_DB2                                    :   0.000000 dB      
+CABLE_LOSS_DB3                                    :   0.000000 dB      
+CABLE_LOSS_DB4                                    :   0.000000 dB      
+LLDPC                                             :          0         
+UEQM_PATTERN                                      :         -1         
+UHR_SIG_MCS                                       :          0         
+BSS_COLOR                                         :          1         
+BSS_FREQ_MHZ_SECONDARY                            :          0 MHz     
+CH_FREQ_MHZ_PRIMARY_20MHz                         :          0 MHz     
+DCM                                               :          0         
+FRAME_COUNT                                       :          0         
+GI_LTF_TYPE                                       :          1         
+MAC_ADDRESS                                       :                    
+NUM_HE_LTF                                        :          1         
+OPTION_STRING                                     :                    
+PACKET_EXTENSION                                  :   1.6e-005         
+PSDU_LENGTH                                       :       1024 bytes   
+RU_SIZE                                           :          1         
+SPATIAL_MAPPING_MATRIX                            :                    
+STA_ID                                            :                    
+STBC                                              :          0         
+WAVEFORM_NAME                                     :                    
+EHT_PUNC_MODE                                     : 0-No puncturing         
+EHT_SIG_MCS                                       :          0         
+PREAMBLE                                          :      SHORT         
+GUARD_INTERVAL                                    :       LONG         
+FBC_MODE                                          :         -1         
+Test Time = 0.001 s
+
+33.REMOVE_DUT  _______________________________________________________________
+OPTION_STRING                                     :                    
+Test Time = 0.001 s
+ERROR_MESSAGE                                     :                 
+        --- [Failed]  :  test function error
+
+34.DISCONNECT_IQ_TESTER  _____________________________________________________
+Test Time = 0.000 s
+ERROR_MESSAGE                                     :                 
+        --- [Failed]  :  test function error
+--------------------------------------------------------------------
+                         *************
+                         *  F A I L  *
+                         *************
+1.GLOBAL_SETTINGS                                           :0.003 s
+2.CONNECT_IQ_TESTER                                         :0.168 s         --- [Failed]
+3.INSERT_DUT                                                :0.001 s         --- [Failed]
+4.INITIALIZE_DUT                                            :0.000 s         --- [Failed]
+5.LOAD_PATH_LOSS_TABLE                                      :0.002 s         --- [Failed]
+6.TX_CALIBRATION_TEST                                       :0.001 s         --- [Failed]
+7.TX_CALIBRATION_TEST                                       :0.001 s         --- [Failed]
+8.RX_CALIBRATION                                            :0.001 s         --- [Failed]
+9.TX_VERIFY EVM MASK POWER SPECTRUM 6115 MCS11 HE_SU BW-20 ANT1:0.001 s         --- [Failed]
+10.TX_VERIFY EVM MASK POWER SPECTRUM 6115 MCS11 HE_SU BW-20 ANT2:0.001 s         --- [Failed]
+11.TX_VERIFY EVM MASK POWER SPECTRUM 6115 MCS11 HE_SU BW-20 ANT3:0.001 s         --- [Failed]
+12.TX_VERIFY EVM MASK POWER SPECTRUM 6115 MCS11 HE_SU BW-20 ANT4:0.001 s         --- [Failed]
+13.TX_VERIFY EVM MASK POWER SPECTRUM 6225 MCS11 EHT_MU BW-80 ANT1:0.001 s         --- [Failed]
+14.TX_VERIFY EVM MASK POWER SPECTRUM 6225 MCS11 EHT_MU BW-80 ANT2:0.001 s         --- [Failed]
+15.TX_VERIFY EVM MASK POWER SPECTRUM 6225 MCS11 EHT_MU BW-80 ANT3:0.001 s         --- [Failed]
+16.TX_VERIFY EVM MASK POWER SPECTRUM 6225 MCS11 EHT_MU BW-80 ANT4:0.001 s         --- [Failed]
+17.TX_VERIFY EVM MASK POWER SPECTRUM 6355 MCS0 EHT_MU BW-20 ANT1:0.001 s         --- [Failed]
+18.TX_VERIFY EVM MASK POWER SPECTRUM 6355 MCS0 EHT_MU BW-20 ANT2:0.001 s         --- [Failed]
+19.TX_VERIFY EVM MASK POWER SPECTRUM 6355 MCS0 EHT_MU BW-20 ANT3:0.002 s         --- [Failed]
+20.TX_VERIFY EVM MASK POWER SPECTRUM 6355 MCS0 EHT_MU BW-20 ANT4:0.001 s         --- [Failed]
+21.TX_VERIFY EVM MASK POWER SPECTRUM 6265 MCS7 EHT_MU BW-320 ANT1:0.001 s         --- [Failed]
+22.TX_VERIFY EVM MASK POWER SPECTRUM 6265 MCS7 EHT_MU BW-320 ANT2:0.001 s         --- [Failed]
+23.TX_VERIFY EVM MASK POWER SPECTRUM 6265 MCS7 EHT_MU BW-320 ANT3:0.001 s         --- [Failed]
+24.TX_VERIFY EVM MASK POWER SPECTRUM 6265 MCS7 EHT_MU BW-320 ANT4:0.001 s         --- [Failed]
+25.RX_VERIFY PER 6095 MCS0 EHT_MU BW-20 ANT1                :0.001 s         --- [Failed]
+26.RX_VERIFY PER 6095 MCS0 EHT_MU BW-20 ANT2                :0.001 s         --- [Failed]
+27.RX_VERIFY PER 6095 MCS0 EHT_MU BW-20 ANT3                :0.001 s         --- [Failed]
+28.RX_VERIFY PER 6095 MCS0 EHT_MU BW-20 ANT4                :0.001 s         --- [Failed]
+29.RX_VERIFY PER 6145 MCS13 EHT_MU BW-80 ANT1               :0.001 s         --- [Failed]
+30.RX_VERIFY PER 6145 MCS13 EHT_MU BW-80 ANT2               :0.001 s         --- [Failed]
+31.RX_VERIFY PER 6145 MCS13 EHT_MU BW-80 ANT3               :0.001 s         --- [Failed]
+32.RX_VERIFY PER 6145 MCS13 EHT_MU BW-80 ANT4               :0.001 s         --- [Failed]
+33.REMOVE_DUT                                               :0.001 s         --- [Failed]
+34.DISCONNECT_IQ_TESTER                                     :0.000 s         --- [Failed]
+Total Run(s)                      : 1
+Passed Run(s)                     : 0
+Failed Run(s) on Limits           : 0
+Failed Run(s) on Errors           : 1
+Average Flow Run Time             : 0.232 s
+Average Test Function Time        : 0.208 s
+Average Passed Flow Run Time      : N/A
+Average Passed Test Function Time : N/A
+In This Run:
+    Fail(s) on Limits             : 0
+    Fail(s) on Errors             : 33
+    Flow Run Time                 : 0.232 s
+    Test Function Time            : 0.208 s
+--------------------------------------------------------------------
+                                     
+    FFFFF    AAA    IIIII   L        
+    F       A   A     I     L        
+    FFFFF   AAAAA     I     L        
+    F       A   A     I     L        
+    F       A   A   IIIII   LLLLL    
+                                     
+IQfactRun_Console:  - FLOW RUNNING ERROR !                               [FAIL]

@@ -1,0 +1,4 @@
+C:\LitePoint\IQfact_plus\IQfact+_BRCM_6718_Telnet_6.0.0.4_Lock\Bin_Octopus_2GHz_WIFI7\Lancer_Test_2G.bat
+C:\LitePoint\IQfact_plus\IQfact+_BRCM_6718_Telnet_6.0.0.4_Lock\Bin_Octopus_5GHz_WIFI7\Lancer_Test_5G.bat
+C:\LitePoint\IQfact_plus\IQfact+_BRCM_6718_Telnet_6.0.0.4_Lock\Bin_Octopus_6GHz_WIFI7\Lancer_Test_6G.bat
+time_out=5000
